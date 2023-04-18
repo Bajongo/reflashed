@@ -13,6 +13,7 @@ The following file types are configured via [Git LFS](https://git-lfs.com/):
 - .wav
 - .fnt
 - .ttf
+- .ogv
 
 If you would like to contribute to Reflashed, send a pull request.
 
