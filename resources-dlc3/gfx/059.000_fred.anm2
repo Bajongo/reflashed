@@ -1,5 +1,5 @@
 <AnimatedActor>
-	<Info CreatedBy="robot" CreatedOn="10/16/2021 12:13:03 PM" Version="142" Fps="30"/>
+	<Info CreatedBy="robot" CreatedOn="4/21/2023 1:59:00 PM" Version="143" Fps="30"/>
 	<Content>
 		<Spritesheets>
 			<Spritesheet Path="monsters\classic\Monster_197_Fred.png" Id="0"/>
@@ -35,10 +35,10 @@
 				<LayerAnimation LayerId="5" Visible="true"/>
 				<LayerAnimation LayerId="9" Visible="true"/>
 				<LayerAnimation LayerId="1" Visible="true">
-					<Frame XPosition="0" YPosition="11" XPivot="128" YPivot="240" XCrop="0" YCrop="256" Width="256" Height="256" XScale="25" YScale="25" Delay="18" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="7" XPivot="128" YPivot="240" XCrop="0" YCrop="256" Width="256" Height="256" XScale="25" YScale="25" Delay="18" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 				<LayerAnimation LayerId="0" Visible="true">
-					<Frame XPosition="0" YPosition="11" XPivot="128" YPivot="240" XCrop="0" YCrop="0" Width="256" Height="256" XScale="25" YScale="25" Delay="18" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="7" XPivot="128" YPivot="240" XCrop="0" YCrop="0" Width="256" Height="256" XScale="25" YScale="25" Delay="18" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 				<LayerAnimation LayerId="4" Visible="true"/>
 				<LayerAnimation LayerId="7" Visible="true"/>

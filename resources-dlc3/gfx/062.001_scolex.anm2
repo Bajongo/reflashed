@@ -1,5 +1,5 @@
 <AnimatedActor>
-	<Info CreatedBy="robot" CreatedOn="5/15/2022 9:01:55 PM" Version="132" Fps="30"/>
+	<Info CreatedBy="robot" CreatedOn="4/21/2023 2:01:46 PM" Version="133" Fps="30"/>
 	<Content>
 		<Spritesheets>
 			<Spritesheet Path="bosses\classic\boss_062_scolex.png" Id="0"/>
@@ -268,7 +268,7 @@
 			<NullAnimations>
 				<NullAnimation NullId="0" Visible="true"/>
 				<NullAnimation NullId="1" Visible="true">
-					<Frame XPosition="-3" YPosition="-56" XScale="100" YScale="100" Delay="87" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="-56" XScale="100" YScale="100" Delay="87" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 					<Frame XPosition="-3" YPosition="-56" XScale="100" YScale="100" Delay="1" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
@@ -436,7 +436,7 @@
 			<NullAnimations>
 				<NullAnimation NullId="0" Visible="true"/>
 				<NullAnimation NullId="1" Visible="true">
-					<Frame XPosition="-3" YPosition="-56" XScale="100" YScale="100" Delay="87" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="-56" XScale="100" YScale="100" Delay="87" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 					<Frame XPosition="-3" YPosition="-56" XScale="100" YScale="100" Delay="1" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
