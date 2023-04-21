@@ -1,5 +1,5 @@
 <AnimatedActor>
-	<Info CreatedBy="robot" CreatedOn="2/19/2022 5:42:03 PM" Version="121" Fps="30"/>
+	<Info CreatedBy="robot" CreatedOn="4/21/2023 2:02:03 PM" Version="122" Fps="30"/>
 	<Content>
 		<Spritesheets>
 			<Spritesheet Path="Bosses/Classic/Boss_019_Pin.png" Id="0"/>
@@ -233,7 +233,7 @@
 			<NullAnimations>
 				<NullAnimation NullId="0" Visible="true"/>
 				<NullAnimation NullId="1" Visible="true">
-					<Frame XPosition="-3" YPosition="-56" XScale="100" YScale="100" Delay="87" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+					<Frame XPosition="0" YPosition="-56" XScale="100" YScale="100" Delay="87" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 					<Frame XPosition="-3" YPosition="-56" XScale="100" YScale="100" Delay="1" Visible="false" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</NullAnimation>
 			</NullAnimations>
