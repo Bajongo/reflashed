@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AnimatedActor>
+  <Info CreatedBy="Unknown" CreatedOn="9/1/2015 2:56:27 PM" Version="4" Fps="30" />
+  <Content>
+    <Spritesheets>
+      <Spritesheet Path="SeedSelectionWidget.png" Id="0" />
+    </Spritesheets>
+    <Layers>
+      <Layer Name="Paper1" Id="0" SpritesheetId="0" />
+      <Layer Name="Egg" Id="1" SpritesheetId="0" />
+      <Layer Name="x" Id="2" SpritesheetId="0" />
+      <Layer Name="NoAchievement" Id="3" SpritesheetId="0" />
+      <Layer Name="Q" Id="4" SpritesheetId="0" />
+      <Layer Name="Paper2" Id="5" SpritesheetId="0" />
+    </Layers>
+    <Nulls>
+      <Null Name="ButtonIcon" Id="0" />
+    </Nulls>
+    <Events />
+  </Content>
+  <Animations DefaultAnimation="Eggs">
+    <Animation Name="Eggs" FrameNum="1" Loop="false">
+      <RootAnimation>
+        <Frame XPosition="0" YPosition="0" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+      </RootAnimation>
+      <LayerAnimations>
+        <LayerAnimation LayerId="0" Visible="true">
+          <Frame XPosition="0" YPosition="0" XPivot="240" YPivot="84" XCrop="4" YCrop="0" Width="480" Height="168" XScale="25" YScale="25" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+        </LayerAnimation>
+        <LayerAnimation LayerId="5" Visible="true" />
+        <LayerAnimation LayerId="1" Visible="true">
+          <Frame XPosition="-36" YPosition="3" XPivot="64" YPivot="64" XCrop="0" YCrop="168" Width="76" Height="88" XScale="25" YScale="25" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+        </LayerAnimation>
+        <LayerAnimation LayerId="2" Visible="true">
+          <Frame XPosition="-17" YPosition="6" XPivot="64" YPivot="64" XCrop="128" YCrop="192" Width="64" Height="64" XScale="25" YScale="25" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+        </LayerAnimation>
+        <LayerAnimation LayerId="3" Visible="true">
+          <Frame XPosition="25" YPosition="7" XPivot="64" YPivot="64" XCrop="192" YCrop="188" Width="64" Height="64" XScale="25" YScale="25" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+        </LayerAnimation>
+        <LayerAnimation LayerId="4" Visible="true">
+          <Frame XPosition="44" YPosition="5" XPivot="64" YPivot="64" XCrop="268" YCrop="176" Width="80" Height="80" XScale="25" YScale="25" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+        </LayerAnimation>
+      </LayerAnimations>
+      <NullAnimations>
+        <NullAnimation NullId="0" Visible="true">
+          <Frame XPosition="39" YPosition="-2" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+        </NullAnimation>
+      </NullAnimations>
+      <Triggers />
+    </Animation>
+    <Animation Name="NoEggs" FrameNum="1" Loop="false">
+      <RootAnimation>
+        <Frame XPosition="0" YPosition="0" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+      </RootAnimation>
+      <LayerAnimations>
+        <LayerAnimation LayerId="0" Visible="true">
+          <Frame XPosition="24" YPosition="1" XPivot="240" YPivot="84" XCrop="8" YCrop="4" Width="184" Height="164" XScale="25" YScale="25" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+        </LayerAnimation>
+        <LayerAnimation LayerId="5" Visible="true">
+          <Frame XPosition="16" YPosition="-6" XPivot="64" YPivot="64" XCrop="320" YCrop="0" Width="192" Height="176" XScale="25" YScale="25" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+        </LayerAnimation>
+        <LayerAnimation LayerId="1" Visible="true">
+          <Frame XPosition="-10" YPosition="2" XPivot="64" YPivot="64" XCrop="0" YCrop="168" Width="76" Height="88" XScale="25" YScale="25" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true" />
+        </LayerAnimation>
+        <LayerAnimation LayerId="2" Visible="true" />
+        <LayerAnimation LayerId="3" Visible="true" />
+        <LayerAnimation LayerId="4" Visible="true">
+          <Frame XPosition="23" YPosition="5" XPivot="64" YPivot="64" XCrop="268" YCrop="176" Width="80" Height="80" XScale="25" YScale="25" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+        </LayerAnimation>
+      </LayerAnimations>
+      <NullAnimations>
+        <NullAnimation NullId="0" Visible="true">
+          <Frame XPosition="18" YPosition="-2" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+        </NullAnimation>
+      </NullAnimations>
+      <Triggers />
+    </Animation>
+  </Animations>
+</AnimatedActor>
